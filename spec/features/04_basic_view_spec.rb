@@ -79,6 +79,7 @@ describe "Playlister Basics" do
       end
 
       it 'responds with a 200 status code' do
+        puts page.status_code
         expect(page.status_code).to eq(200)
       end
 
